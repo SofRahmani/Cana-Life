@@ -1,9 +1,9 @@
-
+import { title } from "@/components/primitives";
 
 const Programmation = () => {
   return (
     <>
-      <h1>Programmation</h1>
+      <h1 className={title({ size: "lg", color: "violet" })}>Programmation</h1>
     </>
   );
 };
